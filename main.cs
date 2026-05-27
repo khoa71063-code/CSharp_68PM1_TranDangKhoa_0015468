@@ -19,7 +19,9 @@ namespace Quanlisinhvien
             {
                 MessageBox.Show("Đăng nhập hệ thống thành công!", "Thông báo",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                FormMain fm = new FormMain();
+                fm.Show();
+                this.Hide();
             }
             else
             {

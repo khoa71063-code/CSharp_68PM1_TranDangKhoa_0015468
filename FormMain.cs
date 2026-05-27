@@ -37,5 +37,10 @@ namespace Quanlisinhvien
             // Gán dữ liệu vào DataGridView
             dgvSinhVien.DataSource = dt;
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
