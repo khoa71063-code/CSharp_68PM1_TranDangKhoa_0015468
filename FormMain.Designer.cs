@@ -56,6 +56,7 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuQLSV,
@@ -74,6 +75,7 @@
             this.menuQLSV.Name = "menuQLSV";
             this.menuQLSV.Size = new System.Drawing.Size(196, 32);
             this.menuQLSV.Text = "Quản lý Sinh Viên";
+            this.menuQLSV.Click += new System.EventHandler(this.menuSinhVien_Click);
             // 
             // menuQLLH
             // 

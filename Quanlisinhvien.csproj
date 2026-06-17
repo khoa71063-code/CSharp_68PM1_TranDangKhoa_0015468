@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KetNoi.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +61,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanliHome_Page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanliHome_Page.Designer.cs">
+      <DependentUpon>QuanliHome_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanliLopHoc_Page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanliLopHoc_Page.Designer.cs">
+      <DependentUpon>QuanliLopHoc_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanliSinhVien_Page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanliSinhVien_Page.Designer.cs">
+      <DependentUpon>QuanliSinhVien_Page.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -81,6 +100,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QuanliLopHoc_Page.resx">
+      <DependentUpon>QuanliLopHoc_Page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
